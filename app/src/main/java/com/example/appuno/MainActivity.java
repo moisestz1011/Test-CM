@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public EditText editText;
     public EditText txtApe;
+    public EditText tv1;
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         showToast("This OnCreate");
         editText = findViewById(R.id.txtEditName);
         txtApe = findViewById(R.id.txtApellido);
+        tv1 = findViewById(R.id.tvSaludo);
+        String user = getIntent().getStringExtra("user");
+        editText.setText("Holaaaa"+ user);
     }
 
     public void Saludar(View view){
