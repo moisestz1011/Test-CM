@@ -91,4 +91,13 @@
         android:text="Name"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="404dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="386dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
