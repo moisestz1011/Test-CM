@@ -81,4 +81,14 @@
         android:text="TextView"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="515dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="404dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
